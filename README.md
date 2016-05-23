@@ -2,4 +2,4 @@
 
 ## 安裝Docker
 
-- [Ubuntu上安裝Docker]( NccuCcDockerLabs/Installation.md )
+- [Ubuntu上安裝Docker](Installation.md)
