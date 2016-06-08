@@ -23,7 +23,7 @@
   for index in $(seq 1 100)
   do
     declare -i port=${index}+100
-    docker run -itd --name "server_${index}" -P -p ${port}:80 -v /var/www/website_${index}:/var/www apache-inst
+    docker run -itd --name "server_${index}" -p ${port}:80 -v /var/www/website_${index}:/var/www apache-inst
   done
   ```
   
