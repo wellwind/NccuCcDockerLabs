@@ -29,6 +29,7 @@
   
 2. chmod 777 ./make-100-servers.sh
 3. sudo ./make-100-servers.sh
+4. sudo docker ps -a
 
 ### 快速移除所有的containers 
 
